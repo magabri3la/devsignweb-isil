@@ -2,17 +2,18 @@ body{
   margin:0;
   padding: 0 32px;
 }
-h1{
-  color: blue;
+h1,h2{
+  font-family: 'Roboto', sans-serif;
   text-align:center;
 }
 
 h2{
-  color: red;
-  text-align:center;
+  text-decoration: underline;
 }
 
 p{
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
 }
 
 section, header {
