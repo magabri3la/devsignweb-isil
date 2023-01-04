@@ -1,0 +1,21 @@
+body{
+  margin:0;
+  padding: 0 32px;
+}
+h1{
+  color: blue;
+  text-align:center;
+}
+
+h2{
+  color: red;
+  text-align:center;
+}
+
+p{
+}
+
+section, header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
