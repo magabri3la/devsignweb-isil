@@ -1,0 +1,55 @@
+.one-two{
+    margin-bottom: 10rem;
+}
+
+.one-two-numbers{
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+.line::after{
+    content: '';
+    width:  100%;
+    height: 3px;
+    border-radius: 1rem;
+    background-color: #89e3db;
+    position: absolute;
+    max-width: 516px;
+    left: 124px;
+}
+
+.one-two-num{
+    color: #221857;
+    background-color: #89e3db;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 78px;
+    height: 78px;
+}
+
+.one-two-content {
+    margin-top: 2rem;
+}
+
+.one-two-content-text {
+    max-width: 520px;
+    margin-right: 4rem;
+    padding: 1rem 1.5rem;
+}
+
+.one-two-content-text p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #221857;
+}
+
+.most {
+    background-color: #6b58cd;
+    border-radius: 2rem;
+    height: fit-content;
+}
+
+.most p {
+    color: #FFFF;
+}
