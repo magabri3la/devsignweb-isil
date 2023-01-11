@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1360px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background-color: rgba(34, 24, 87, 0.2);;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: #FFFF;
+}
+
+.header-nav {
+    width: 100vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.header-nav nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul {
+    list-style: none;
+    gap: 2rem;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.hero {
+    background-color: #6b58cd;
+    height: 762px;
+    padding-top: 9rem;
+}
+
+.hero-content {
+    justify-content: space-between;
+}
+
+.hero-content article {
+    max-width: 600px;
+}
+
+.hero-content aside figure {
+    width: 500px;
+}
+
+.hero-content aside figure img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content-title {
+    font-size: 3.6rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.hero-content-paragraph {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin-bottom: 3.6rem;
+}
+
+.hero-content-btn {
+    font-size: 1.1rem;
+    color: #221857;
+    background-color: #89e3db;
+    border: 2px solid #89e3db;
+    padding: 17px 60px;
+    min-height: 60px;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+
+.hero-background-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
