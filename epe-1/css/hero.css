@@ -1,0 +1,54 @@
+.hero {
+    background-color: #6b58cd;
+    height: 762px;
+    padding-top: 9rem;
+}
+
+.hero-content {
+    justify-content: space-between;
+}
+
+.hero-content article {
+    max-width: 600px;
+}
+
+.hero-content aside figure {
+    width: 500px;
+}
+
+.hero-content aside figure img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content-title {
+    font-size: 3.6rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.hero-content-paragraph {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin-bottom: 3.6rem;
+}
+
+.hero-content-btn {
+    font-size: 1.1rem;
+    color: #221857;
+    background-color: #89e3db;
+    border: 2px solid #89e3db;
+    padding: 17px 60px;
+    min-height: 60px;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.hero-background-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}

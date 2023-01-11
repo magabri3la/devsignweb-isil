@@ -1,0 +1,31 @@
+.header {
+    background-color: rgba(34, 24, 87, 0.2);;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: #FFFF;
+}
+
+.header-nav {
+    width: 100vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.header-nav nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul {
+    list-style: none;
+    gap: 2rem;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #FFFF;
+}
