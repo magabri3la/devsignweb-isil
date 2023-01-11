@@ -1,10 +1,11 @@
 .one-two{
-    margin-bottom: 10rem;
+    margin-bottom:6rem;
 }
 
 .one-two-numbers{
     max-width: 700px;
     justify-content: space-between;
+    position: relative;
 }
 
 .line::after{
@@ -15,7 +16,7 @@
     background-color: #89e3db;
     position: absolute;
     max-width: 516px;
-    left: 124px;
+    left: 92px;
 }
 
 .one-two-num{
@@ -35,7 +36,7 @@
 .one-two-content-text {
     max-width: 520px;
     margin-right: 4rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0rem;
 }
 
 .one-two-content-text p {
@@ -48,6 +49,7 @@
     background-color: #6b58cd;
     border-radius: 2rem;
     height: fit-content;
+    padding: 1rem 1.5rem;
 }
 
 .most p {

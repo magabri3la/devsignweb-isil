@@ -1,0 +1,51 @@
+.perks{
+    margin-bottom: 10rem;
+}
+
+.perks-background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.perks-content{
+    position: relative;
+    background-color: #221857;
+    padding: 4.4rem 6rem;
+    border-radius: 1rem;
+}
+
+.perks-content aside {
+    position: relative;
+    z-index: 1;
+}
+
+.perks-text{
+    max-width: 480px;
+    margin-right: 4rem;
+}
+
+.perks-title{
+    font-size: 3.6rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.perks-paragraph{
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin-bottom: 3.6rem;
+}
+
+.perks-items {
+    list-style: none;
+}
+
+.perks-items li {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
