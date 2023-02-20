@@ -16,15 +16,15 @@
     width:  100%;
     height: 3px;
     border-radius: 1rem;
-    background-color: #89e3db;
+    background-color: var(--wgreen);
     position: absolute;
     max-width: 516px;
     left: 92px;
 }
 
 .one-two-num{
-    color: #221857;
-    background-color: #89e3db;
+    color: var(--bluesea);
+    background-color: var(--wgreen);
     border-radius: 50%;
     font-size: 2rem;
     font-weight: 700;
@@ -45,11 +45,11 @@
 .one-two-content-text p {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #221857;
+    color: var(--bluesea);
 }
 
 .most {
-    background-color: #6b58cd;
+    background-color: var(--purple);
     border-radius: 2rem;
     height: fit-content;
     padding: 1rem 1.5rem;

@@ -1,0 +1,13 @@
+.social {
+  padding: 16px 0;
+  background-color: var(--purple);
+}
+
+.social-list {
+  list-style: none;
+  gap: 32px;
+}
+
+.social-list a {
+  color: white;
+}

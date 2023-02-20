@@ -14,7 +14,7 @@
 
 .perks-content{
     position: relative;
-    background-color: #221857;
+    background-color: var(--bluesea);
     padding: 4.4rem 6rem;
     border-radius: 1rem;
 }

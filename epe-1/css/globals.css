@@ -31,3 +31,34 @@
     justify-content: center;
     align-items: center;
 }
+
+.row-reverse {
+    flex-flow: row-reverse;
+}
+
+
+.scroll-container{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} 
+
+.scroll-top{
+    background-color: var(--bluesea);
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+}
+/*
+    Variables
+*/
+
+:root {
+    --purple : #6b58cd;
+    --wgreen : #89e3db;
+    --bluesea : #221857;
+}

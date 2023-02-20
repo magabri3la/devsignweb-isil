@@ -2,10 +2,11 @@
 /* Estilos de la sección Hero */
 
 .hero {
-    background-color: #6b58cd;
+    background-color: var(--purple);
     height: 762px;
     padding-top: 9rem;
     margin-bottom: 10rem;
+    position: relative;
 }
 
 .hero-content {
@@ -36,23 +37,31 @@
 .hero-content-paragraph {
     font-size: 1.4rem;
     color: #FFFFFF;
-    margin-bottom: 3.6rem;
+    margin-bottom: 2.6rem;
 }
 
 .hero-content-btn {
     font-size: 1.1rem;
-    color: #221857;
-    background-color: #89e3db;
-    border: 2px solid #89e3db;
+    color: var(--bluesea);
+    background-color: var(--wgreen);
     padding: 17px 60px;
     min-height: 60px;
     border-radius: 2rem;
     font-weight: 700;
+    border: none;
+}
+
+.hero-content-btn:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    background-color: var(--bluesea);
+    border: 2px solid var(--wgreen);
+    color: var(--wgreen);
 }
 
 .hero-background-img{
     position: absolute;
-    top: 0;
+    top:0;
     right: 0;
     z-index: 0;
 }

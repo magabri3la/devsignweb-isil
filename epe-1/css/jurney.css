@@ -1,0 +1,35 @@
+.jurney {
+  padding: 10rem 0 5rem;
+}
+
+.jurney-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--bluesea);
+  margin-bottom: 3rem;
+}
+
+.jurney-content {
+  margin-bottom: 6rem;
+  gap: 32px;
+}
+
+.jurney-content-text {
+  width: 50%;
+  font-size: 19px;
+  line-height: 29px;
+  color: var(--bluesea);
+  gap: 16px;
+}
+
+.jurney-content-video {
+  width: 50%;
+}
+
+.jurney-content-video video{
+  width: 100%;
+}
+
+.jurney-content-video iframe{
+  width: 100%;
+}

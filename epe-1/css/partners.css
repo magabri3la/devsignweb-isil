@@ -2,7 +2,7 @@
 /* Estilos de la sección Partners */
 
 .partners{
-    background-color: #6b58cd;
+    background-color: var(--purple);
 }
 
 .partners-content{
